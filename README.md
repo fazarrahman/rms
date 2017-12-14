@@ -27,4 +27,8 @@ It is implementing MVC pattern using only Servlet and JSP, combine with plain JD
 
 It uses tomcat7-maven-plugin to spin up embedded tomcat 7, therefore no need to install tomcat 7 on your local machine. 
 
+You can modify the database connection from properties file : rms-servlet-web\src\main\resources\database.properties
+
+Please execute sql script file in src\main\sql\rms.sql on your database server first.
+
 To run the application, execute maven command `mvn tomcat7:run` and browse http://localhost:8080/rms-servlet-web/index.jsp
